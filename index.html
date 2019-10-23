@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jeu du pendu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Le Joueur 1 décide du mot à deviner</h1>
+    <div id="word"></div>
+    <div class="points">Nombre de points :<span id="count"></span></div>
+    <div class="players">
+      <div id="player1">
+        <h2>Joueur 1</h2>
+        <input id="input1" type="password" name="mot" value="" placeholder="mot à faire deviner">
+        <button id="btn-1" type="button" name="button">Valider</button>
+      </div>
+      <div id="player2">
+        <h2>Joueur 2</h2>
+        <input id="input2" type="text" name="mot" value="" placeholder="quelle lettre voulez-vous choisir ?">
+        <button id="btn-2" type="button" name="button">Valider</button>
+      </div>
+    </div>
+    <p id="message"></p>
+    <script src="script.js"></script>
+  </body>
+</html>

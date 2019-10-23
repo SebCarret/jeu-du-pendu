@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Muli', sans-serif;
+  color: #183C43;
+  background-color: #F2F2F3
+}
+
+#word {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #FA675D;
+  font-size: 25px
+}
+
+.word-span {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 25px
+}
+
+.points {
+  background-color: #1B7F8B;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+#count {
+  margin-left: 5px
+}
+
+.players {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+#player1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px
+}
+
+#input1 {
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #FA675D;
+  margin-bottom: 10px
+}
+
+#btn-1 {
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #FA675D;
+  border-radius: 5px;
+  border: none;
+  padding: 10px
+}
+
+#player2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px
+}
+
+#input2 {
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #FA675D;
+  margin-bottom: 10px
+}
+
+#btn-2 {
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #FA675D;
+  border-radius: 5px;
+  border: none;
+  padding: 10px
+}
+
+#message {
+  margin-top: 50px;
+  color: #FA675D;
+  font-size: 25px
+}
